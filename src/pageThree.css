@@ -1,0 +1,11 @@
+.goback-container-button-container {
+    display: grid;
+    grid-template-columns: repeat(1, auto);  /* Create two columns */
+    gap: 80px;  /* Adds space between buttons */
+    padding-top: 30px;
+}
+
+.tsukki {
+    width: 20vw;
+    height: auto;
+}

@@ -1,0 +1,19 @@
+.rain-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.selection-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);  /* Create two columns */
+  gap: 80px;  /* Adds space between buttons */
+}
+
+.goback-container {
+  display: grid;
+  grid-template-columns: repeat(1, auto);  /* Create two columns */
+  gap: 80px;  /* Adds space between buttons */
+  padding-top: 30px;
+}
